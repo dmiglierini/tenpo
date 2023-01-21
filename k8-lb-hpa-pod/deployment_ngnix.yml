@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: dmiglierini/nginx-tenpo:v1
+        image: dmiglierini/nginx-backend:latest
         resources:
           requests:
             memory: "64Mi"
